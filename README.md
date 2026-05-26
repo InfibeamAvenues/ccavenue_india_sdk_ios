@@ -1,6 +1,6 @@
 # CCAvenueIndiaSDK
 
-## Swift Package Manager (iOS 13+)
+## Swift Package Manager
 
 [Swift Package Manager](https://www.swift.org/package-manager/) ccavenue_india_sdk_ios is distributed as Swift Package, follow the below steps for installing the package in your iOS app.
 
