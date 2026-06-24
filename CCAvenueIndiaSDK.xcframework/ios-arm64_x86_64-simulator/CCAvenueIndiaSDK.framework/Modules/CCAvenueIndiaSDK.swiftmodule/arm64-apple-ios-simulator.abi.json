@@ -913,18 +913,18 @@
               {
                 "kind": "TypeNominal",
                 "name": "Optional",
-                "printedName": "[Swift.AnyHashable : Any]?",
+                "printedName": "[Swift.String : Any]?",
                 "children": [
                   {
                     "kind": "TypeNominal",
                     "name": "Dictionary",
-                    "printedName": "[Swift.AnyHashable : Any]",
+                    "printedName": "[Swift.String : Any]",
                     "children": [
                       {
                         "kind": "TypeNominal",
-                        "name": "AnyHashable",
-                        "printedName": "Swift.AnyHashable",
-                        "usr": "s:s11AnyHashableV"
+                        "name": "String",
+                        "printedName": "Swift.String",
+                        "usr": "s:SS"
                       },
                       {
                         "kind": "TypeNominal",
@@ -940,7 +940,7 @@
             ],
             "declKind": "Func",
             "usr": "c:@M@CCAvenueIndiaSDK@objc(pl)CCAvenueDelegate(im)onTransactionResponse:",
-            "mangledName": "$s16CCAvenueIndiaSDK0A8DelegateP21onTransactionResponseyySDys11AnyHashableVypGSgF",
+            "mangledName": "$s16CCAvenueIndiaSDK0A8DelegateP21onTransactionResponseyySDySSypGSgF",
             "moduleName": "CCAvenueIndiaSDK",
             "genericSig": "<τ_0_0 where τ_0_0 : CCAvenueIndiaSDK.CCAvenueDelegate>",
             "sugared_genericSig": "<Self where Self : CCAvenueIndiaSDK.CCAvenueDelegate>",
@@ -1200,7 +1200,7 @@
           {
             "kind": "Constructor",
             "name": "init",
-            "printedName": "init(accessCode:encRequest:paymentEnvironment:appColor:fontColor:)",
+            "printedName": "init(accessCode:encRequest:paymentEnvironment:appColor:fontColor:encryptionMode:)",
             "children": [
               {
                 "kind": "TypeNominal",
@@ -1240,11 +1240,18 @@
                 "printedName": "Swift.String",
                 "hasDefaultArg": true,
                 "usr": "s:SS"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "String",
+                "printedName": "Swift.String",
+                "hasDefaultArg": true,
+                "usr": "s:SS"
               }
             ],
             "declKind": "Constructor",
-            "usr": "s:16CCAvenueIndiaSDK0A5OrderV10accessCode10encRequest18paymentEnvironment8appColor04fontL0ACSS_S4Stcfc",
-            "mangledName": "$s16CCAvenueIndiaSDK0A5OrderV10accessCode10encRequest18paymentEnvironment8appColor04fontL0ACSS_S4Stcfc",
+            "usr": "s:16CCAvenueIndiaSDK0A5OrderV10accessCode10encRequest18paymentEnvironment8appColor04fontL014encryptionModeACSS_S5Stcfc",
+            "mangledName": "$s16CCAvenueIndiaSDK0A5OrderV10accessCode10encRequest18paymentEnvironment8appColor04fontL014encryptionModeACSS_S5Stcfc",
             "moduleName": "CCAvenueIndiaSDK",
             "declAttributes": [
               "AccessControl",
@@ -2631,441 +2638,441 @@
     {
       "filePath": "\/Users\/amol.shelke\/Desktop\/All Projects\/India SDK\/SDK 2.0\/SDK\/CCAvenueSDK\/MainViewController\/MainSBViewController.swift",
       "kind": "StringLiteral",
-      "offset": 278,
+      "offset": 273,
       "length": 9,
       "value": "\"PROCEED\""
     },
     {
       "filePath": "\/Users\/amol.shelke\/Desktop\/All Projects\/India SDK\/SDK 2.0\/SDK\/CCAvenueSDK\/MainViewController\/MainSBViewController.swift",
       "kind": "StringLiteral",
-      "offset": 306,
+      "offset": 301,
       "length": 8,
       "value": "\"VERIFY\""
     },
     {
       "filePath": "\/Users\/amol.shelke\/Desktop\/All Projects\/India SDK\/SDK 2.0\/SDK\/CCAvenueSDK\/MainViewController\/MainSBViewController.swift",
       "kind": "StringLiteral",
-      "offset": 333,
+      "offset": 328,
       "length": 9,
       "value": "\"PAY_NOW\""
     },
     {
       "filePath": "\/Users\/amol.shelke\/Desktop\/All Projects\/India SDK\/SDK 2.0\/SDK\/CCAvenueSDK\/MainViewController\/MainSBViewController.swift",
       "kind": "StringLiteral",
-      "offset": 367,
+      "offset": 362,
       "length": 16,
       "value": "\"PROCEED_TO_PAY\""
     },
     {
       "filePath": "\/Users\/amol.shelke\/Desktop\/All Projects\/India SDK\/SDK 2.0\/SDK\/CCAvenueSDK\/MainViewController\/MainSBViewController.swift",
       "kind": "IntegerLiteral",
-      "offset": 784,
+      "offset": 779,
       "length": 3,
       "value": "200"
     },
     {
       "filePath": "\/Users\/amol.shelke\/Desktop\/All Projects\/India SDK\/SDK 2.0\/SDK\/CCAvenueSDK\/MainViewController\/MainSBViewController.swift",
       "kind": "IntegerLiteral",
-      "offset": 797,
+      "offset": 792,
       "length": 19,
       "value": "201"
     },
     {
       "filePath": "\/Users\/amol.shelke\/Desktop\/All Projects\/India SDK\/SDK 2.0\/SDK\/CCAvenueSDK\/MainViewController\/MainSBViewController.swift",
       "kind": "IntegerLiteral",
-      "offset": 826,
+      "offset": 821,
       "length": 17,
       "value": "202"
     },
     {
       "filePath": "\/Users\/amol.shelke\/Desktop\/All Projects\/India SDK\/SDK 2.0\/SDK\/CCAvenueSDK\/MainViewController\/MainSBViewController.swift",
       "kind": "IntegerLiteral",
-      "offset": 853,
+      "offset": 848,
       "length": 28,
       "value": "203"
     },
     {
       "filePath": "\/Users\/amol.shelke\/Desktop\/All Projects\/India SDK\/SDK 2.0\/SDK\/CCAvenueSDK\/MainViewController\/MainSBViewController.swift",
       "kind": "IntegerLiteral",
-      "offset": 891,
+      "offset": 886,
       "length": 29,
       "value": "204"
     },
     {
       "filePath": "\/Users\/amol.shelke\/Desktop\/All Projects\/India SDK\/SDK 2.0\/SDK\/CCAvenueSDK\/MainViewController\/MainSBViewController.swift",
       "kind": "IntegerLiteral",
-      "offset": 930,
+      "offset": 925,
       "length": 25,
       "value": "205"
     },
     {
       "filePath": "\/Users\/amol.shelke\/Desktop\/All Projects\/India SDK\/SDK 2.0\/SDK\/CCAvenueSDK\/MainViewController\/MainSBViewController.swift",
       "kind": "IntegerLiteral",
-      "offset": 965,
+      "offset": 960,
       "length": 26,
       "value": "206"
     },
     {
       "filePath": "\/Users\/amol.shelke\/Desktop\/All Projects\/India SDK\/SDK 2.0\/SDK\/CCAvenueSDK\/MainViewController\/MainSBViewController.swift",
       "kind": "IntegerLiteral",
-      "offset": 1001,
+      "offset": 996,
       "length": 27,
       "value": "207"
     },
     {
       "filePath": "\/Users\/amol.shelke\/Desktop\/All Projects\/India SDK\/SDK 2.0\/SDK\/CCAvenueSDK\/MainViewController\/MainSBViewController.swift",
       "kind": "IntegerLiteral",
-      "offset": 1038,
+      "offset": 1033,
       "length": 22,
       "value": "208"
     },
     {
       "filePath": "\/Users\/amol.shelke\/Desktop\/All Projects\/India SDK\/SDK 2.0\/SDK\/CCAvenueSDK\/MainViewController\/MainSBViewController.swift",
       "kind": "IntegerLiteral",
-      "offset": 1070,
+      "offset": 1065,
       "length": 18,
       "value": "209"
     },
     {
       "filePath": "\/Users\/amol.shelke\/Desktop\/All Projects\/India SDK\/SDK 2.0\/SDK\/CCAvenueSDK\/MainViewController\/MainSBViewController.swift",
       "kind": "IntegerLiteral",
-      "offset": 1098,
+      "offset": 1093,
       "length": 17,
       "value": "210"
     },
     {
       "filePath": "\/Users\/amol.shelke\/Desktop\/All Projects\/India SDK\/SDK 2.0\/SDK\/CCAvenueSDK\/MainViewController\/MainSBViewController.swift",
       "kind": "IntegerLiteral",
-      "offset": 1125,
+      "offset": 1120,
       "length": 21,
       "value": "211"
     },
     {
       "filePath": "\/Users\/amol.shelke\/Desktop\/All Projects\/India SDK\/SDK 2.0\/SDK\/CCAvenueSDK\/MainViewController\/MainSBViewController.swift",
       "kind": "IntegerLiteral",
-      "offset": 1156,
+      "offset": 1151,
       "length": 21,
       "value": "212"
     },
     {
       "filePath": "\/Users\/amol.shelke\/Desktop\/All Projects\/India SDK\/SDK 2.0\/SDK\/CCAvenueSDK\/MainViewController\/MainSBViewController.swift",
       "kind": "IntegerLiteral",
-      "offset": 1187,
+      "offset": 1182,
       "length": 24,
       "value": "213"
     },
     {
       "filePath": "\/Users\/amol.shelke\/Desktop\/All Projects\/India SDK\/SDK 2.0\/SDK\/CCAvenueSDK\/MainViewController\/MainSBViewController.swift",
       "kind": "IntegerLiteral",
-      "offset": 1221,
+      "offset": 1216,
       "length": 17,
       "value": "214"
     },
     {
       "filePath": "\/Users\/amol.shelke\/Desktop\/All Projects\/India SDK\/SDK 2.0\/SDK\/CCAvenueSDK\/MainViewController\/MainSBViewController.swift",
       "kind": "IntegerLiteral",
-      "offset": 1248,
+      "offset": 1243,
       "length": 20,
       "value": "215"
     },
     {
       "filePath": "\/Users\/amol.shelke\/Desktop\/All Projects\/India SDK\/SDK 2.0\/SDK\/CCAvenueSDK\/MainViewController\/MainSBViewController.swift",
       "kind": "IntegerLiteral",
-      "offset": 1278,
+      "offset": 1273,
       "length": 18,
       "value": "216"
     },
     {
       "filePath": "\/Users\/amol.shelke\/Desktop\/All Projects\/India SDK\/SDK 2.0\/SDK\/CCAvenueSDK\/MainViewController\/MainSBViewController.swift",
       "kind": "IntegerLiteral",
-      "offset": 1306,
+      "offset": 1301,
       "length": 22,
       "value": "217"
     },
     {
       "filePath": "\/Users\/amol.shelke\/Desktop\/All Projects\/India SDK\/SDK 2.0\/SDK\/CCAvenueSDK\/MainViewController\/MainSBViewController.swift",
       "kind": "IntegerLiteral",
-      "offset": 1338,
+      "offset": 1333,
       "length": 19,
       "value": "218"
     },
     {
       "filePath": "\/Users\/amol.shelke\/Desktop\/All Projects\/India SDK\/SDK 2.0\/SDK\/CCAvenueSDK\/MainViewController\/MainSBViewController.swift",
       "kind": "IntegerLiteral",
-      "offset": 1367,
+      "offset": 1362,
       "length": 22,
       "value": "219"
     },
     {
       "filePath": "\/Users\/amol.shelke\/Desktop\/All Projects\/India SDK\/SDK 2.0\/SDK\/CCAvenueSDK\/MainViewController\/MainSBViewController.swift",
       "kind": "IntegerLiteral",
-      "offset": 1399,
+      "offset": 1394,
       "length": 24,
       "value": "220"
     },
     {
       "filePath": "\/Users\/amol.shelke\/Desktop\/All Projects\/India SDK\/SDK 2.0\/SDK\/CCAvenueSDK\/MainViewController\/MainSBViewController.swift",
       "kind": "IntegerLiteral",
-      "offset": 1433,
+      "offset": 1428,
       "length": 22,
       "value": "221"
     },
     {
       "filePath": "\/Users\/amol.shelke\/Desktop\/All Projects\/India SDK\/SDK 2.0\/SDK\/CCAvenueSDK\/MainViewController\/MainSBViewController.swift",
       "kind": "IntegerLiteral",
-      "offset": 1465,
+      "offset": 1460,
       "length": 26,
       "value": "222"
     },
     {
       "filePath": "\/Users\/amol.shelke\/Desktop\/All Projects\/India SDK\/SDK 2.0\/SDK\/CCAvenueSDK\/MainViewController\/MainSBViewController.swift",
       "kind": "IntegerLiteral",
-      "offset": 1501,
+      "offset": 1496,
       "length": 19,
       "value": "223"
     },
     {
       "filePath": "\/Users\/amol.shelke\/Desktop\/All Projects\/India SDK\/SDK 2.0\/SDK\/CCAvenueSDK\/MainViewController\/MainSBViewController.swift",
       "kind": "BooleanLiteral",
-      "offset": 3695,
+      "offset": 3690,
       "length": 5,
       "value": "false"
     },
     {
       "filePath": "\/Users\/amol.shelke\/Desktop\/All Projects\/India SDK\/SDK 2.0\/SDK\/CCAvenueSDK\/MainViewController\/MainSBViewController.swift",
       "kind": "BooleanLiteral",
-      "offset": 3905,
+      "offset": 3900,
       "length": 5,
       "value": "false"
     },
     {
       "filePath": "\/Users\/amol.shelke\/Desktop\/All Projects\/India SDK\/SDK 2.0\/SDK\/CCAvenueSDK\/MainViewController\/MainSBViewController.swift",
       "kind": "BooleanLiteral",
-      "offset": 4093,
+      "offset": 4088,
       "length": 5,
       "value": "false"
     },
     {
       "filePath": "\/Users\/amol.shelke\/Desktop\/All Projects\/India SDK\/SDK 2.0\/SDK\/CCAvenueSDK\/MainViewController\/MainSBViewController.swift",
       "kind": "BooleanLiteral",
-      "offset": 4157,
+      "offset": 4152,
       "length": 5,
       "value": "false"
     },
     {
       "filePath": "\/Users\/amol.shelke\/Desktop\/All Projects\/India SDK\/SDK 2.0\/SDK\/CCAvenueSDK\/MainViewController\/MainSBViewController.swift",
       "kind": "StringLiteral",
-      "offset": 4609,
+      "offset": 4604,
       "length": 5,
       "value": "\"off\""
     },
     {
       "filePath": "\/Users\/amol.shelke\/Desktop\/All Projects\/India SDK\/SDK 2.0\/SDK\/CCAvenueSDK\/MainViewController\/MainSBViewController.swift",
       "kind": "BooleanLiteral",
-      "offset": 4644,
+      "offset": 4639,
       "length": 5,
       "value": "false"
     },
     {
       "filePath": "\/Users\/amol.shelke\/Desktop\/All Projects\/India SDK\/SDK 2.0\/SDK\/CCAvenueSDK\/MainViewController\/MainSBViewController.swift",
       "kind": "StringLiteral",
-      "offset": 4920,
+      "offset": 4915,
       "length": 2,
       "value": "\"\""
     },
     {
       "filePath": "\/Users\/amol.shelke\/Desktop\/All Projects\/India SDK\/SDK 2.0\/SDK\/CCAvenueSDK\/MainViewController\/MainSBViewController.swift",
       "kind": "StringLiteral",
-      "offset": 5114,
+      "offset": 5109,
       "length": 2,
       "value": "\"\""
     },
     {
       "filePath": "\/Users\/amol.shelke\/Desktop\/All Projects\/India SDK\/SDK 2.0\/SDK\/CCAvenueSDK\/MainViewController\/MainSBViewController.swift",
       "kind": "BooleanLiteral",
-      "offset": 5246,
+      "offset": 5241,
       "length": 5,
       "value": "false"
     },
     {
       "filePath": "\/Users\/amol.shelke\/Desktop\/All Projects\/India SDK\/SDK 2.0\/SDK\/CCAvenueSDK\/MainViewController\/MainSBViewController.swift",
       "kind": "BooleanLiteral",
-      "offset": 5287,
+      "offset": 5282,
       "length": 5,
       "value": "false"
     },
     {
       "filePath": "\/Users\/amol.shelke\/Desktop\/All Projects\/India SDK\/SDK 2.0\/SDK\/CCAvenueSDK\/MainViewController\/MainSBViewController.swift",
       "kind": "BooleanLiteral",
-      "offset": 5322,
+      "offset": 5317,
       "length": 5,
       "value": "false"
     },
     {
       "filePath": "\/Users\/amol.shelke\/Desktop\/All Projects\/India SDK\/SDK 2.0\/SDK\/CCAvenueSDK\/MainViewController\/MainSBViewController.swift",
       "kind": "BooleanLiteral",
-      "offset": 5360,
+      "offset": 5355,
       "length": 5,
       "value": "false"
     },
     {
       "filePath": "\/Users\/amol.shelke\/Desktop\/All Projects\/India SDK\/SDK 2.0\/SDK\/CCAvenueSDK\/MainViewController\/MainSBViewController.swift",
       "kind": "StringLiteral",
-      "offset": 5707,
+      "offset": 5702,
       "length": 2,
       "value": "\"\""
     },
     {
       "filePath": "\/Users\/amol.shelke\/Desktop\/All Projects\/India SDK\/SDK 2.0\/SDK\/CCAvenueSDK\/MainViewController\/MainSBViewController.swift",
       "kind": "StringLiteral",
-      "offset": 5816,
+      "offset": 5811,
       "length": 2,
       "value": "\"\""
     },
     {
       "filePath": "\/Users\/amol.shelke\/Desktop\/All Projects\/India SDK\/SDK 2.0\/SDK\/CCAvenueSDK\/MainViewController\/MainSBViewController.swift",
       "kind": "StringLiteral",
-      "offset": 5837,
+      "offset": 5832,
       "length": 2,
       "value": "\"\""
     },
     {
       "filePath": "\/Users\/amol.shelke\/Desktop\/All Projects\/India SDK\/SDK 2.0\/SDK\/CCAvenueSDK\/MainViewController\/MainSBViewController.swift",
       "kind": "StringLiteral",
-      "offset": 5863,
+      "offset": 5858,
       "length": 2,
       "value": "\"\""
     },
     {
       "filePath": "\/Users\/amol.shelke\/Desktop\/All Projects\/India SDK\/SDK 2.0\/SDK\/CCAvenueSDK\/MainViewController\/MainSBViewController.swift",
       "kind": "StringLiteral",
-      "offset": 5884,
+      "offset": 5879,
       "length": 2,
       "value": "\"\""
     },
     {
       "filePath": "\/Users\/amol.shelke\/Desktop\/All Projects\/India SDK\/SDK 2.0\/SDK\/CCAvenueSDK\/MainViewController\/MainSBViewController.swift",
       "kind": "StringLiteral",
-      "offset": 5939,
+      "offset": 5934,
       "length": 2,
       "value": "\"\""
     },
     {
       "filePath": "\/Users\/amol.shelke\/Desktop\/All Projects\/India SDK\/SDK 2.0\/SDK\/CCAvenueSDK\/MainViewController\/MainSBViewController.swift",
       "kind": "BooleanLiteral",
-      "offset": 5980,
+      "offset": 5975,
       "length": 5,
       "value": "false"
     },
     {
       "filePath": "\/Users\/amol.shelke\/Desktop\/All Projects\/India SDK\/SDK 2.0\/SDK\/CCAvenueSDK\/MainViewController\/MainSBViewController.swift",
       "kind": "BooleanLiteral",
-      "offset": 6206,
+      "offset": 6201,
       "length": 5,
       "value": "false"
     },
     {
       "filePath": "\/Users\/amol.shelke\/Desktop\/All Projects\/India SDK\/SDK 2.0\/SDK\/CCAvenueSDK\/MainViewController\/MainSBViewController.swift",
       "kind": "BooleanLiteral",
-      "offset": 6242,
+      "offset": 6237,
       "length": 5,
       "value": "false"
     },
     {
       "filePath": "\/Users\/amol.shelke\/Desktop\/All Projects\/India SDK\/SDK 2.0\/SDK\/CCAvenueSDK\/MainViewController\/MainSBViewController.swift",
       "kind": "BooleanLiteral",
-      "offset": 51106,
+      "offset": 51118,
       "length": 5,
       "value": "false"
     },
     {
       "filePath": "\/Users\/amol.shelke\/Desktop\/All Projects\/India SDK\/SDK 2.0\/SDK\/CCAvenueSDK\/MainViewController\/MainSBViewController.swift",
       "kind": "BooleanLiteral",
-      "offset": 56109,
+      "offset": 56121,
       "length": 5,
       "value": "false"
     },
     {
       "filePath": "\/Users\/amol.shelke\/Desktop\/All Projects\/India SDK\/SDK 2.0\/SDK\/CCAvenueSDK\/MainViewController\/MainSBViewController.swift",
       "kind": "BooleanLiteral",
-      "offset": 59068,
+      "offset": 59080,
       "length": 5,
       "value": "false"
     },
     {
       "filePath": "\/Users\/amol.shelke\/Desktop\/All Projects\/India SDK\/SDK 2.0\/SDK\/CCAvenueSDK\/MainViewController\/MainSBViewController.swift",
       "kind": "BooleanLiteral",
-      "offset": 61148,
+      "offset": 61160,
       "length": 5,
       "value": "false"
     },
     {
       "filePath": "\/Users\/amol.shelke\/Desktop\/All Projects\/India SDK\/SDK 2.0\/SDK\/CCAvenueSDK\/MainViewController\/MainSBViewController.swift",
       "kind": "StringLiteral",
-      "offset": 72757,
+      "offset": 72769,
       "length": 2,
       "value": "\"\""
     },
     {
       "filePath": "\/Users\/amol.shelke\/Desktop\/All Projects\/India SDK\/SDK 2.0\/SDK\/CCAvenueSDK\/MainViewController\/MainSBViewController.swift",
       "kind": "StringLiteral",
-      "offset": 79481,
+      "offset": 79493,
       "length": 2,
       "value": "\"\""
     },
     {
       "filePath": "\/Users\/amol.shelke\/Desktop\/All Projects\/India SDK\/SDK 2.0\/SDK\/CCAvenueSDK\/MainViewController\/MainSBViewController.swift",
       "kind": "StringLiteral",
-      "offset": 84395,
+      "offset": 84407,
       "length": 3,
       "value": "\"N\""
     },
     {
       "filePath": "\/Users\/amol.shelke\/Desktop\/All Projects\/India SDK\/SDK 2.0\/SDK\/CCAvenueSDK\/MainViewController\/MainSBViewController.swift",
       "kind": "BooleanLiteral",
-      "offset": 84446,
+      "offset": 84458,
       "length": 5,
       "value": "false"
     },
     {
       "filePath": "\/Users\/amol.shelke\/Desktop\/All Projects\/India SDK\/SDK 2.0\/SDK\/CCAvenueSDK\/MainViewController\/MainSBViewController.swift",
       "kind": "StringLiteral",
-      "offset": 84469,
+      "offset": 84481,
       "length": 2,
       "value": "\"\""
     },
     {
       "filePath": "\/Users\/amol.shelke\/Desktop\/All Projects\/India SDK\/SDK 2.0\/SDK\/CCAvenueSDK\/MainViewController\/MainSBViewController.swift",
       "kind": "BooleanLiteral",
-      "offset": 84493,
+      "offset": 84505,
       "length": 5,
       "value": "false"
     },
     {
       "filePath": "\/Users\/amol.shelke\/Desktop\/All Projects\/India SDK\/SDK 2.0\/SDK\/CCAvenueSDK\/MainViewController\/MainSBViewController.swift",
       "kind": "StringLiteral",
-      "offset": 126593,
+      "offset": 126595,
       "length": 2,
       "value": "\"\""
     },
     {
       "filePath": "\/Users\/amol.shelke\/Desktop\/All Projects\/India SDK\/SDK 2.0\/SDK\/CCAvenueSDK\/MainViewController\/MainSBViewController.swift",
       "kind": "StringLiteral",
-      "offset": 126618,
+      "offset": 126620,
       "length": 2,
       "value": "\"\""
     },
     {
       "filePath": "\/Users\/amol.shelke\/Desktop\/All Projects\/India SDK\/SDK 2.0\/SDK\/CCAvenueSDK\/MainViewController\/MainSBViewController.swift",
       "kind": "BooleanLiteral",
-      "offset": 131149,
+      "offset": 131151,
       "length": 5,
       "value": "false"
     },
     {
       "filePath": "\/Users\/amol.shelke\/Desktop\/All Projects\/India SDK\/SDK 2.0\/SDK\/CCAvenueSDK\/MainViewController\/MainSBViewController.swift",
       "kind": "BooleanLiteral",
-      "offset": 157828,
+      "offset": 157917,
       "length": 5,
       "value": "false"
     },
@@ -5347,42 +5354,42 @@
     {
       "filePath": "\/Users\/amol.shelke\/Desktop\/All Projects\/India SDK\/SDK 2.0\/SDK\/CCAvenueSDK\/DataModels\/MerchantSettingModel.swift",
       "kind": "StringLiteral",
-      "offset": 2500,
+      "offset": 2535,
       "length": 18,
       "value": "\"country_isd_code\""
     },
     {
       "filePath": "\/Users\/amol.shelke\/Desktop\/All Projects\/India SDK\/SDK 2.0\/SDK\/CCAvenueSDK\/DataModels\/MerchantSettingModel.swift",
       "kind": "StringLiteral",
-      "offset": 2546,
+      "offset": 2581,
       "length": 14,
       "value": "\"country_name\""
     },
     {
       "filePath": "\/Users\/amol.shelke\/Desktop\/All Projects\/India SDK\/SDK 2.0\/SDK\/CCAvenueSDK\/DataModels\/MerchantSettingModel.swift",
       "kind": "StringLiteral",
-      "offset": 2594,
+      "offset": 2629,
       "length": 21,
       "value": "\"country_alpha2_code\""
     },
     {
       "filePath": "\/Users\/amol.shelke\/Desktop\/All Projects\/India SDK\/SDK 2.0\/SDK\/CCAvenueSDK\/DataModels\/MerchantSettingModel.swift",
       "kind": "StringLiteral",
-      "offset": 2901,
+      "offset": 2936,
       "length": 5,
       "value": "\"UPI\""
     },
     {
       "filePath": "\/Users\/amol.shelke\/Desktop\/All Projects\/India SDK\/SDK 2.0\/SDK\/CCAvenueSDK\/DataModels\/MerchantSettingModel.swift",
       "kind": "StringLiteral",
-      "offset": 2927,
+      "offset": 2962,
       "length": 6,
       "value": "\"NBBL\""
     },
     {
       "filePath": "\/Users\/amol.shelke\/Desktop\/All Projects\/India SDK\/SDK 2.0\/SDK\/CCAvenueSDK\/DataModels\/MerchantSettingModel.swift",
       "kind": "StringLiteral",
-      "offset": 3128,
+      "offset": 3163,
       "length": 11,
       "value": "\"schemeUrl\""
     },
@@ -5585,77 +5592,84 @@
     {
       "filePath": "\/Users\/amol.shelke\/Desktop\/All Projects\/India SDK\/SDK 2.0\/SDK\/CCAvenueSDK\/MainViewController\/CCAvenueViewController.swift",
       "kind": "IntegerLiteral",
-      "offset": 287,
+      "offset": 282,
       "length": 1,
       "value": "0"
     },
     {
       "filePath": "\/Users\/amol.shelke\/Desktop\/All Projects\/India SDK\/SDK 2.0\/SDK\/CCAvenueSDK\/MainViewController\/CCAvenueViewController.swift",
       "kind": "IntegerLiteral",
-      "offset": 311,
+      "offset": 306,
       "length": 3,
       "value": "104"
     },
     {
       "filePath": "\/Users\/amol.shelke\/Desktop\/All Projects\/India SDK\/SDK 2.0\/SDK\/CCAvenueSDK\/MainViewController\/CCAvenueViewController.swift",
       "kind": "IntegerLiteral",
-      "offset": 334,
+      "offset": 329,
       "length": 3,
       "value": "105"
     },
     {
       "filePath": "\/Users\/amol.shelke\/Desktop\/All Projects\/India SDK\/SDK 2.0\/SDK\/CCAvenueSDK\/MainViewController\/CCAvenueViewController.swift",
       "kind": "IntegerLiteral",
-      "offset": 357,
+      "offset": 352,
       "length": 3,
       "value": "106"
     },
     {
       "filePath": "\/Users\/amol.shelke\/Desktop\/All Projects\/India SDK\/SDK 2.0\/SDK\/CCAvenueSDK\/MainViewController\/CCAvenueViewController.swift",
       "kind": "IntegerLiteral",
-      "offset": 414,
+      "offset": 409,
       "length": 1,
       "value": "0"
     },
     {
       "filePath": "\/Users\/amol.shelke\/Desktop\/All Projects\/India SDK\/SDK 2.0\/SDK\/CCAvenueSDK\/MainViewController\/CCAvenueViewController.swift",
       "kind": "IntegerLiteral",
-      "offset": 425,
+      "offset": 420,
       "length": 9,
       "value": "1"
     },
     {
       "filePath": "\/Users\/amol.shelke\/Desktop\/All Projects\/India SDK\/SDK 2.0\/SDK\/CCAvenueSDK\/MainViewController\/CCAvenueViewController.swift",
       "kind": "StringLiteral",
-      "offset": 1701,
+      "offset": 1728,
       "length": 12,
       "value": "\"production\""
     },
     {
       "filePath": "\/Users\/amol.shelke\/Desktop\/All Projects\/India SDK\/SDK 2.0\/SDK\/CCAvenueSDK\/MainViewController\/CCAvenueViewController.swift",
       "kind": "StringLiteral",
-      "offset": 1750,
+      "offset": 1777,
       "length": 9,
       "value": "\"#1F46BD\""
     },
     {
       "filePath": "\/Users\/amol.shelke\/Desktop\/All Projects\/India SDK\/SDK 2.0\/SDK\/CCAvenueSDK\/MainViewController\/CCAvenueViewController.swift",
       "kind": "StringLiteral",
-      "offset": 1797,
+      "offset": 1824,
       "length": 9,
       "value": "\"#FFFFFF\""
     },
     {
       "filePath": "\/Users\/amol.shelke\/Desktop\/All Projects\/India SDK\/SDK 2.0\/SDK\/CCAvenueSDK\/MainViewController\/CCAvenueViewController.swift",
+      "kind": "StringLiteral",
+      "offset": 1876,
+      "length": 8,
+      "value": "\"aes128\""
+    },
+    {
+      "filePath": "\/Users\/amol.shelke\/Desktop\/All Projects\/India SDK\/SDK 2.0\/SDK\/CCAvenueSDK\/MainViewController\/CCAvenueViewController.swift",
       "kind": "BooleanLiteral",
-      "offset": 3077,
+      "offset": 3233,
       "length": 5,
       "value": "false"
     },
     {
       "filePath": "\/Users\/amol.shelke\/Desktop\/All Projects\/India SDK\/SDK 2.0\/SDK\/CCAvenueSDK\/MainViewController\/CCAvenueViewController.swift",
       "kind": "StringLiteral",
-      "offset": 3163,
+      "offset": 3319,
       "length": 5,
       "value": "\"off\""
     },
