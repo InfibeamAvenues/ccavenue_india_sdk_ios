@@ -370,10 +370,10 @@ extern "C" {
 
 #if defined(__OBJC__)
 
-@class NSObject;
+@class NSString;
 SWIFT_PROTOCOL("_TtP16CCAvenueIndiaSDK16CCAvenueDelegate_")
 @protocol CCAvenueDelegate
-- (void)onTransactionResponse:(NSDictionary * _Nullable)jsonResponse;
+- (void)onTransactionResponse:(NSDictionary<NSString *, id> * _Nullable)jsonResponse;
 @end
 
 SWIFT_CLASS("_TtC16CCAvenueIndiaSDK11CCAvenueSDK")
